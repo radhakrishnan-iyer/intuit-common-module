@@ -18,4 +18,6 @@ public class Constants {
     public static final String PROFILE_CREATED = "Profile has been created/updated successfully";
     public static final String PROFILE_REJECTED = "Profile creation/updation was rejected by one or more products subscribed by the customer";
     public static final String PROFILE_IN_PROGRESS = "Profile creation/updating is still in progress";
+    public static final String UNABLE_TO_FETCH_TRANSACTION = "Unable to fetch Transaction - either some service is down or the correlationId is incorrect";
+    public static final String UNABLE_TO_FETCH_PROFILE = "Unable to fetch profile - either some service is down or the profileId is incorrect";
 }
